@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9f924ee51c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encornptador</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="corn-logo" src="image/corn_logo.svg" alt="Logo del encornptador, que es una mazorca"></a>
+    </header>
+    <main>
+        <section id="encryptor">
+            <div>
+                <form action="">
+                    <textarea id="text" autocomplete="off" autofocus placeholder="Ingrese el texto aquí"></textarea>
+                </form>
+            </div>
+            <div class="text-btn">
+                <p id="textBtn"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="box-btn">
+                <button id="encrypt" class="btn btn-crypt">
+                    <span class="btn-txt">Encriptar</span>
+                </button>
+                <button id="decrypt" class="btn btn-crypt">
+                    <span class="btn-txt">Desencriptar</span>
+                </button>
+            </div>
+        </section>
+        <section id="encrypted-text">
+            <div id="display-hidden">
+                <img id="display-img" src="image/corn_encrypt.svg" alt="Imagen de espera de encriptación, es una mazorca    asada">
+                <h2>Ningún mensaje fue encontrado</h2>
+            </div>
+            <div>
+                <p id="text-crypt">Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div id="divBtnCopy">
+                <button id="copy" class="btn btn-crypt">
+                    <span class="btn-txt">Copiar</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <p>
+                <ul>
+                    <div class="social-networks"><li><a href="https://www.facebook.com/david.mazun"><i class="fa-brands fa-facebook"></i>Facebook</a></li></div>
+                    <div class="social-networks"><li><a href="https://www.linkedin.com/in/david-mazun-calvo/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li></div>
+                    <div class="social-networks"><li><a href="https://github.com/LaMazorca"><i class="fa-brands fa-github"></i>GitHub</a></li></div>
+                </ul>
+            </p>
+        </div>
+        <div class="copyright">
+            <h3>&copy;Copyright 2023 David Mazun Calvo</h3>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
