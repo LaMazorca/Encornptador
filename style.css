@@ -260,6 +260,7 @@ footer{
 
         .btn{
             width: 100%;
+            margin: 1rem 0;
         }
 
         .social-networks {
@@ -282,4 +283,8 @@ footer{
         #encrypted-text img{
             display: none;
         }
+    
+        #copy{
+                width: 50%;
+            }
 }
